@@ -1,0 +1,20 @@
+# oct/17/2019 07:52:57 by RouterOS 6.45.6
+# software id = 1QJH-NEZU
+#
+# model = RouterBOARD wsAP 5Hac2nD
+# serial number = 7D4508FD547B
+# 5Gсеох╫е╠╬
+
+
+/interface wireless access-list
+add comment="2G-\D6\D0\B5\C8\A3\A8\C1\F4\A3\A9-95..-65" interface=2G \
+    signal-range=-95..-65 vlan-mode=no-tag
+add authentication=no comment="2G-\BA\DC\BA\C3\A3\A8\CC\DF\A3\A9>-65" \
+    forwarding=no interface=2G signal-range=-64..120
+add authentication=no comment="2G-\B2\BB\BA\C3\A3\A8\CC\DF\A3\A9<-95" \
+    forwarding=no interface=2G signal-range=-120..-96
+add comment="5G-\BA\DC\BA\C3\A3\A8\C1\F4\A3\A9>-62" interface=5G \
+    signal-range=-63..120 vlan-mode=no-tag
+add authentication=no comment="5G-\C6\E4\CB\FC\A3\A8\CC\DF\A3\A9<-62" \
+    forwarding=no interface=5G signal-range=-120..-62
+
