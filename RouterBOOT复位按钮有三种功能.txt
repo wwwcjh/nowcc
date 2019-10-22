@@ -1,18 +1,18 @@
-RouterBOOT��λ��ť�����ֹ���
+RouterBOOT复位按钮有三种功能
 2019-10-22 Sam
 
-1)�ָ�����Ĭ�����ã�
-��ͨ��ǰ����ס�˰�ť���ӵ磬LED�ƿ�ʼ��˸����˸3�κ��ɿ���ť���ȴ��Զ�������RouterOS�����ø�λ��ɣ���5�룩
+1)恢复出厂默认设置：
+在通电前，按住此按钮，接电，LED灯开始闪烁，闪烁3次后松开按钮，等待自动重启，RouterOS的配置复位完成（共5秒）
 
-2)�Զ���CAPsģʽ��
-��ͨ��ǰ����ס�˰�ť���ӵ磬LED�ƿ�ʼ��˸��������ס5�룬ֱ��LED��Ϊ�������ɿ���ť���ȴ��Զ��������Զ���CAPsģʽ��ɣ���10�룩
+2)自动打开CAPs模式：
+在通电前，按住此按钮，接电，LED灯开始闪烁，继续按住5秒，直到LED变为长亮，松开按钮，等待自动重启，自动打开CAPs模式完成（共10秒）
 
-3)���簲װRouter OSϵͳ��
-��ͨ��ǰ����ס�˰�ť���ӵ磬LED�ƿ�ʼ��˸����LED��Ϊ������ֱ��ָʾ��Ϩ���ɿ���ť��ʹ·�ɰ�������簲װ������״̬��ɣ���15�룩
-��1  Ҫ��1�ſ�
-��2  Ҫ����boot server  ����ͻ���ip
-��3  Ҫ�豸���߿�ip��ַ�Ϳͻ���ipͬһ��ַ�Ρ�
-��4  Ҫ��ס��ס15�롣
-ע�⣺�������ͨ��֮ǰ��ס��λ��ť�������ж���RouterBOOT��������б������ϡ�Ҫ���������ж�������������ϣ����豸�ӵ�Դ���������¸�λ��ť�� 
+3)网络安装Router OS系统：
+在通电前，按住此按钮，接电，LED灯开始闪烁，到LED变为长亮，直到指示灯熄灭，松开按钮，使路由板查找网络安装服务器状态完成（共15秒）
+第1  要插1号口
+第2  要开启boot server  分配客户端ip
+第3  要设备有线口ip地址和客户端ip同一地址段。
+第4  要按住开住15秒。
+注意：如果您在通电之前按住复位按钮，上述行动中RouterBOOT将清除所有备份资料。要做到上述行动不清除备份资料，将设备接电源后立即按下复位按钮。 
 
-�������: http://wiki.mikrotik.com/wiki/Manual:RouterBOOT �
+相关链接: http://wiki.mikrotik.com/wiki/Manual:RouterBOOT
