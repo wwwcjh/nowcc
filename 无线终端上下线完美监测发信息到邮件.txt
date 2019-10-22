@@ -1,0 +1,25 @@
+无线终端上下线完美监测发信息到邮件
+2019-10-22 Sam
+
+#寻找mac地址上线(wireless完美版)
+#:global a
+:global b
+:set $b 68:DB:CA:49:2E:41
+:foreach i in=[/int wir regis find mac-address=$b] do={
+:if ([/int wir regis get $i uptime] < 00:01:00) do={
+#:set $a [/int wir reg find mac-address=$b] 
+#:if ($a!="") do={
+:log war (" $b is up")
+/tool e-mail send to=ccc@nowcc.cn from=wwwcjh@126.com subject="$b up" body=("$b at home!")
+}}}
+
+
+#寻找mac地址下线(wireless完美版)
+:global a
+:global b
+:set $b 68:DB:CA:49:2E:41
+:set $a [/int wir reg find mac-address=$b] 
+:if ($a="") do={
+:log war (" MAC:$b is down")
+/tool e-mail send to=ccc@nowcc.cn from=wwwcjh@126.com subject="$b down" body=("$b out home!")
+}
