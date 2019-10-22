@@ -1,0 +1,18 @@
+RouterBOOT¸´Î»°´Å¥ÓÐÈýÖÖ¹¦ÄÜ
+2019-10-22 Sam
+
+1)»Ö¸´³ö³§Ä¬ÈÏÉèÖÃ£º
+ÔÚÍ¨µçÇ°£¬°´×¡´Ë°´Å¥£¬½Óµç£¬LEDµÆ¿ªÊ¼ÉÁË¸£¬ÉÁË¸3´ÎºóËÉ¿ª°´Å¥£¬µÈ´ý×Ô¶¯ÖØÆô£¬RouterOSµÄÅäÖÃ¸´Î»Íê³É£¨¹²5Ãë£©
+
+2)×Ô¶¯´ò¿ªCAPsÄ£Ê½£º
+ÔÚÍ¨µçÇ°£¬°´×¡´Ë°´Å¥£¬½Óµç£¬LEDµÆ¿ªÊ¼ÉÁË¸£¬¼ÌÐø°´×¡5Ãë£¬Ö±µ½LED±äÎª³¤ÁÁ£¬ËÉ¿ª°´Å¥£¬µÈ´ý×Ô¶¯ÖØÆô£¬×Ô¶¯´ò¿ªCAPsÄ£Ê½Íê³É£¨¹²10Ãë£©
+
+3)ÍøÂç°²×°Router OSÏµÍ³£º
+ÔÚÍ¨µçÇ°£¬°´×¡´Ë°´Å¥£¬½Óµç£¬LEDµÆ¿ªÊ¼ÉÁË¸£¬µ½LED±äÎª³¤ÁÁ£¬Ö±µ½Ö¸Ê¾µÆÏ¨Ãð£¬ËÉ¿ª°´Å¥£¬Ê¹Â·ÓÉ°å²éÕÒÍøÂç°²×°·þÎñÆ÷×´Ì¬Íê³É£¨¹²15Ãë£©
+µÚ1  Òª²å1ºÅ¿Ú
+µÚ2  Òª¿ªÆôboot server  ·ÖÅä¿Í»§¶Ëip
+µÚ3  ÒªÉè±¸ÓÐÏß¿ÚipµØÖ·ºÍ¿Í»§¶ËipÍ¬Ò»µØÖ·¶Î¡£
+µÚ4  Òª°´×¡¿ª×¡15Ãë¡£
+×¢Òâ£ºÈç¹ûÄúÔÚÍ¨µçÖ®Ç°°´×¡¸´Î»°´Å¥£¬ÉÏÊöÐÐ¶¯ÖÐRouterBOOT½«Çå³ýËùÓÐ±¸·Ý×ÊÁÏ¡£Òª×öµ½ÉÏÊöÐÐ¶¯²»Çå³ý±¸·Ý×ÊÁÏ£¬½«Éè±¸½ÓµçÔ´ºóÁ¢¼´°´ÏÂ¸´Î»°´Å¥¡£ 
+
+Ïà¹ØÁ´½Ó: http://wiki.mikrotik.com/wiki/Manual:RouterBOOT  
